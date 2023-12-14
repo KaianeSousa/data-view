@@ -29,7 +29,7 @@ body
 
 }
 
-.section1 h1
+.leftSide h1
 {
     position: relative;
     margin-top: 100px;
@@ -41,7 +41,7 @@ body
     border-radius: 1vh;
 }
 
-.section1 p
+.leftSide p
 {
     position: relative;
     margin-top: 5vh;
