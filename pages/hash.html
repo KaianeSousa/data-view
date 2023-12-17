@@ -1,63 +1,198 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
+    <!-- Configuração do documento HTML5 com codificação e viewport -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da página -->
     <title>Hash Tabels</title>
+    <!-- Links para arquivos externos de estilos CSS  -->
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/styleNavbar.css">
     <link rel="stylesheet" href="../css/styleFooter.css">
+    <link rel="stylesheet" href="../css/styleHash.css">
+    <!-- Links para arquivos externos de scripts JavaScript -->
+    <script defer src = "../js/jsHash.js"></script>
     <script defer src="../js/jsNavbar.js"></script>
+     <!-- Link para o ícone da página-->
+    <link rel="icon" type="image/png" size="35x35" href="../images/icon.png">
+
 </head>
 
 <body>
+    <!-- Cabeçalho da página com logo, título e navegação -->
     <header>
         <div class="logoTitle">
 
-            <a href="#" class="logo"><img src="../images/logo.png" width="45px"></a>
-            <p class="titlePage">DATA VIEWER / HASH TABELS</p>
+            <a href="../index.html" class="logo"><img src="../images/logo.png" width="45px"></a>
+            <p class="titlePage">DATA VIEWER / HASH TABLES</p>
         </div>
-
+        <!-- Menu de navegação -->
         <nav class="navbar hiddenMenu">
             <a href="../index.html">Home</a>
-            <a href=".../pages/vetores.html">Vetores</a>
+            <a href="../pages/vetores.html">Vetores</a>
             <a href="../pages/listas.html">Listas</a>
             <a href="../pages/pilhas.html">Pilhas</a>
             <a href="../pages/filas.html">Filas</a>
             <a href="../pages/heaps.html">Heaps</a>
-            <a href="../pages/arvores.html">Arvores</a>
-            <a href="#">Hash Tabels</a>
+            <a href="../pages/arvores.html">Árvores</a>
+            <a href="#">Hash Tables</a>
             <a href="../pages/grafos.html" active>Grafos</a>
         </nav>
+        <!-- Ícone do menu -->
         <img src="../images/menu.png" alt="menu" class="menuIcon">
     </header>
-
-
-    <footer>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="wave">
-            <path fill="#060429" fill-opacity="1" d="M0,160L60,133.3C120,107,240,53,360,58.7C480,64,600,128,720,160C840,
-                    192,960,192,1080,170.7C1200,149,1320,107,1380,85.3L1440,64L1440,320L1380,
-                    320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,
-                    320C240,320,120,320,60,320L0,320Z">
-            </path>
-        </svg>
-        <div class="footerBody">
-            <img src="../images/logo.png" alt="logo" class="logoFooter">
-
-            <h3 class="dataName">DATA VIEWER</h3>
-            <p class="phrase">
-                - Woodrow Wilson <br>
-                "Eu não apenas uso todo o cérebro que tenho, <br> mas todos os que consigo pegar emprestado."
+    <body>
+       <!-- Seção de conteúdo principal -->
+<section class="content">
+    <!-- Divisão da Seção 1 -->
+    <div class="section1">
+        <!-- Lado Esquerdo -->
+        <div class="leftSide">
+            <!-- Título e Mensagem Inicial sobre Hash Tables -->
+            <h1 class="pageTitle">
+                HASH TABLES
+            </h1>
+            <p class="msgInicial">
+               Hash tables são tabelas de dispersão ou de espalhamento, uma estrutura
+               de dados não muito usada para realizar inserções ou remoções, mas sim 
+               para tornar eficiente um processo de busca por meio de uma estruturação 
+               par chave-valor. Imagine um biotecnólogo tentando encontrar a posição 
+               indicada pelas três trincas de nucleotídeos que realizam a parada de síntese
+               do material genético. Se as três estiverem associadas a uma chave, a busca
+               será mais eficiente e rápida.
             </p>
-            <small class="lastText">
-                &copy;Copyright 2023, Data Viewer. All rights reserved
-            </small>
-
         </div>
-
+        
+        <!-- Lado Direito -->
+        <div class="rightSide">
+            <!-- Slider de Imagens -->
+            <div class="sliderList">
+                <div class="container" id="img">
+                    <img src="..images/imgHash/tela2.png" alt="">
+                </div>
+            </div>
         </div>
-    </footer>
-</body>
+    </div>
 
+    <!-- Divisão da Seção 2 -->
+    <div class="section2">
+        <!-- Conteúdo das Laterais -->
+        <div class="contentSides">
+            <!-- Lado Esquerdo 2 -->
+            <div class="leftSide2">
+                <!-- Título e Texto sobre a Hash Table Biotecnológica -->
+                <h2 class="title2">
+                    HASH TABLE BIOTECNOLÓGICA
+                </h2>
+                <div class="circleText">
+                    <!-- Mensagem sobre a associação de trincas de nucleotídeos a proteínas -->
+                    Por que não descobrir<br/>
+                    a qual proteína cada combinação <br/>
+                    de trinca de nucleotídeos <br/>
+                    está associada <br/>
+                </div>
+            </div>
+
+            <!-- Lado Direito 2 - Lista e Opções -->
+            <div class="listBox2">
+                <!-- Botão para Ver pares chave-valor disponíveis -->
+                <button type="button" class="botaoVerGames">Ver pares chave-valor disponíveis</button>
+                
+                <!-- Cabeçalho da Caixa de Opções -->
+                <div class="boxHeader">
+                    <!-- Caixa de Opções Oculta -->
+                    <div class="hiddenOpcoes translateHiddenOpcoes1">
+                        <!-- Nome da Proteína Atual -->
+                        <span id="nomeProteinaHiddenOpcoes"></span>
+                    </div>
+                </div>
+                
+                <!-- Menu de Títulos Disponíveis (oculto) -->
+                <div class="menuTitulos hiddenSideAvailable">
+                    <!-- Container para Lista de pares chave-valor disponíveis (dinâmica) -->
+                    <div class="containerAvailable">
+                        <!-- Pares chave-valor disponíveis aqui -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+ <!-- Início do elemento footer -->
+<footer>
+    <!-- Elemento SVG para criar uma onda decorativa no fundo -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="wave">
+        <path fill="#060429" fill-opacity="1" d="M0,160L60,133.3C120,107,240,53,360,58.7C480,64,600,128,720,160C840,
+                192,960,192,1080,170.7C1200,149,1320,107,1380,85.3L1440,64L1440,320L1380,
+                320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,
+                320C240,320,120,320,60,320L0,320Z">
+        </path>
+    </svg>
+    <!-- Contêiner para o conteúdo do rodapé -->
+    <div class="footerBody">
+        <!-- Imagem do logo -->
+        <img src="../images/logo.png" alt="logo" class="logoFooter">
+        <!-- Título do site -->
+        <h3 class="dataName">DATA VIEWER</h3>
+        <!-- Citação e autor -->
+        <p class="phrase">
+            - Woodrow Wilson <br>
+            "Eu não apenas uso todo o cérebro que tenho, <br> mas todos os que consigo pegar emprestado."
+        </p>
+        <!-- Lista de desenvolvedores -->
+        <div class="squad">
+            <h3 class="titleSquad">
+                &lt;Desenvolvido por&gt;
+            </h3>
+            <div>
+                <!-- Links para os perfis dos desenvolvedores -->
+                <div class="dev1">
+                    <a href="https://github.com/Doug16Yanc">
+                        &lt;
+                        <p>Douglas_Holanda</p>
+                        id="Tech_Leader"&gt;
+                    </a>
+                </div>
+                        <div class="dev2">
+                            <a href="">
+                                &lt;
+                                <p>Leticia_Pereira</p>
+                                id="Analista_de_requisitos"&gt;
+                            </a>
+                        </div>
+                        <div class="dev3">
+                            <a href="">
+                                &lt;
+                                <p>Micaele_Rodrigues</p>
+                                class="Designer"/&gt;
+                            </a>
+                        </div>
+                        <div class="dev4">
+                            <a href="https://github.com/KaianeSousa">
+                                &lt;
+                                /<p>Kaiane_Sousa</p>
+                                class="Designer"&gt;
+                            </a>
+                        </div>
+                        <div class="dev5">
+                            <a href="https://github.com/Wesley00s">
+                                &lt;
+                                /<p>Wesley_Rodrigues</p>
+                                class="Full_Stack"&gt;
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Texto de direitos autorais -->
+                    <small class="lastText">
+                        &copy;Copyright 2023, Data Viewer. All rights reserved
+                    </small>
+                </div>
+            <!-- Fim do contêiner do rodapé -->
+        </footer>
+    </body>
 </html>
