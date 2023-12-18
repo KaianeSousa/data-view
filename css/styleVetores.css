@@ -2,7 +2,6 @@ body
 {
     overflow: hidden;
 }
-
 .content
 {
     display: flex;
@@ -20,7 +19,6 @@ body
     width: 100%;
     display: flex;
     flex-direction: row;
-    
 }
 
 .leftSide
@@ -28,11 +26,10 @@ body
     flex-direction: column;
     margin-left: 5vh;
     width: 50%;
-    /* background: #000; */
 }
 
 .leftSide h1
-{
+{  
     position: relative;
     margin-top: 100px;
     margin-left: 3.5vh;
@@ -48,16 +45,16 @@ body
     position: relative;
     margin-top: 5vh;
     left: -5vh;
-    font-size: 25px;
+    font-size: 22px;
     line-height: 3.5vh;
     width: 100%;
     padding: 3vh 4vh 3vh 3vh;
     text-align: justify;
-    /*(sup.esq.,sup.dir.,inf.dir., inf.esq.)*/
     border-radius: 0 4vh 4vh 0; 
     background: #00000090;
-
+    color: white;
 }
+
 .shelfImg
 {
     position: relative;
@@ -68,49 +65,9 @@ body
 .rightSide
 {
     display: flex;
-    /* left: 60vh; */
     justify-content: end;
     position: relative;
-    /* background: #000; */
     width: 80%;
-}
-
-.searchGame
-{
-    width: 50vh;
-    overflow: hidden;
-    padding: 2vh;
-    font-size: 20px;
-    background: #ffffff48;
-    color: #fff;
-    border-bottom-left-radius: 10vh;
-    border-top-left-radius: 10vh;
-    border: 1px #fff solid;    
-}
-
-
-::-webkit-input-placeholder {
-    color: #fff;
-}
-
-:-moz-placeholder { /* Firefox 18- */
-    color: #fff;
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-    color: #fff;
-}
-
-:-ms-input-placeholder {  
-    color: #fff;
-}
-
-.container
-{
-    margin-top: 20vh;
-    display: flex;
-    flex-direction: column;
-    /* transition: 1s ease-in-out; */
 }
 
 .sliderList img
@@ -144,6 +101,7 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0;
+    position: relative;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -166,9 +124,12 @@ body
 
 .leftSide2
 {
+    position: absolute;
     flex-direction: row;
-    /* background: #000; */
+    justify-content: space-around;
     width: 40%;
+    left: 32%;
+    top: 0%;
 }
 
 .leftSide2 h1
@@ -178,20 +139,16 @@ body
 
 .leftSide2 p
 {
-    font-size: 25px;
+    font-size: 20px;
     width: 50%;
-    text-align:left;
-    line-height: 1em;
+    position: absolute;
 }
 
 .rightSide2
 {
-    /* display: flex; */
     flex-direction: row;
     height: fit-content;
     width: 30%;
-    /* background: #000; */
-
 }
 
 .contentSides
@@ -201,15 +158,13 @@ body
     justify-content: space-between;
 }
 
-
 .listContent
 {
     display: flex;
     position: absolute;
-    top: 70%;
+    top: -30%;
     flex-wrap: wrap;
     left: 1%;
-    /* height: 100vh; */
     flex-direction: column;
     z-index: 0;
     width: 30%;
@@ -218,23 +173,18 @@ body
 
 .listBox
 {
-    position: absolute;
-    display: flex;
+        display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 75%;
+    text-align: center;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 15vh 2vh 2vh 2vh;
-    /* background: #ff9595; */
     margin: auto;
-    /* border: .5px solid #252E82; */
+    margin-top: -10%;
     border-top: none;
     border-bottom-left-radius: 2vh;
     border-bottom-right-radius: 2vh;
-    /* background: linear-gradient(#252e8200, #060b504d); */
-    /* background: #a00000; */
-    /* z-index: 999; */
 }
 .listBox2
 {
@@ -244,47 +194,44 @@ body
     flex-wrap: wrap;
     justify-content: space-around;
     right: 0;
-    width: 75%;
-    /* left: 10%; */
-    margin-top: 20%;
-    z-index: 999;
-    background: linear-gradient(#0000005e, #000000);
-    padding: 5vh;
-    border-radius: 2vh 0 0 2vh;
-      /* background: #ff0000; */
+    width: 70%;
+    margin-top: 10%;
+    z-index: 1;
+}
+
+.userGames
+{
+    border-radius: 2vh;
+    background: linear-gradient(#000, #000a1fc0);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: fit-content;
+    padding-top: 2vh;
+    border: #0c2d75c0 2px solid;
 }
 .listBox2 img
 {
-    width: 15vh;
-    margin: 1vh;
-}
-
-.bgGeralt
-{
-    z-index: 0;
+    display: flex;
+    justify-content: left;
 }
 
 .itemList
 {
-    width: 10vh;
-    height: 10vh;
-    /* position: relative; */
-    /* display: flex; */
+    height: 13vh;
     flex-direction: row;
-    /* padding: 1vh; */
-    margin: 1.5vh;
-    /* border: solid 1px #5669a8; */
+    margin: 1vh;
     border-radius: .5vh;
     justify-content: center;
     align-items: center;
-    box-shadow: 5px 3px 6px #000;
-    /* z-index: 999; */
-    
+    box-shadow: 1vh 1vh 2vh #000000;
+    padding-top: 2vh;
+    border: #01377c solid 1px;
 }
 
 .itemBoxExample h2
 {
-    font-size: max(15px, 2vh);
+    font-size: max(15px, 1.8vh);
 
 }
 .bgGeralt
@@ -292,9 +239,35 @@ body
     position: absolute;
     width: 50%;
     left: 50%;
-    top: 48%;
+    bottom: 0;
     z-index: 0;
 }
+
+@media (max-width: 1440px)
+{
+    .bgGeralt
+    {
+        position: absolute;
+        width: 55%;
+        left: 45%;
+        top: -30%;
+        z-index: 0;
+    }
+}
+
+@media (max-width: 1024px)
+{
+    .bgGeralt
+    {
+        position: absolute;
+        width: 75%;
+        left: 45%;
+        top: -30%;
+        z-index: 0;
+    }
+}
+
+
 
 .itemBox
 {
@@ -305,10 +278,22 @@ body
     position: relative;
     justify-content: center;
     align-items: center;
-    /* padding-right: 5vh; */
     flex-direction: column;
-    /* z-index: 999; */
     width: fit-content;
+    padding: 1vh;
+    border-radius: 1vh;
+    margin-bottom: 1vh;
+
+}
+
+.userList
+{
+    margin: auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding: 1vh;
     border-radius: 1vh;
     margin-bottom: 1vh;
@@ -324,7 +309,6 @@ body
     position: relative;
     justify-content: center;
     align-items: center;
-    /* padding-right: 5vh; */
     flex-direction: column;
     /* z-index: 999; */
     width: 49%;
@@ -356,15 +340,13 @@ body
 }
 .numb
 {
-    font-size: 20px;
-    position: absolute;
-    background: #00691D;
+    font-size: max(20px, 1.5vh);
+    position: relative;
     padding: .5vh 1.2vh .5vh 1.2vh;
     box-shadow: 5px 3px 6px #000;
     text-align: center;
     align-items: center;
     justify-content: center;
-    border-radius: 10vh;
 }
 
 .bgList
@@ -377,22 +359,26 @@ body
 .botaoVerGames
 {
     display: flex;
-    /* flex-direction: row; */
     position: absolute;
     width: 40vh;
-    bottom: 20%;
+    top: -35%;
     right: 0;
-    font-size: 2.5vh;
+    font-size: max(20px, 2vh);
     height: fit-content;
     padding: 2vh 5vh;
     text-align: left;
-    /* left: 10vh; */
     background: #00691d;
+    box-shadow: -1vh 1vh 2vh #000;
     color: #fff;
-    /* margin-top: 6.5vh; */
     border-top-left-radius: 10vh;
     border-bottom-left-radius: 10vh;
     z-index: 99;
+}
+
+.botaoVerGames:hover
+{
+    background: #00571a;
+    box-shadow: -1vh 1vh 1vh #00000096;
 }
 
 .boxDesc
@@ -456,16 +442,16 @@ body
 
 .btnRemove
 {
-    position: relative;
-    bottom: 2vh;
-    right: 15vh;
+    position: absolute;
+    bottom: 5vh;
     padding: .2vh 1vh;
     box-shadow: 1px 2px 4px #000;
-    font-size: 25px;
+    font-size: 20px;
     background: #690000;
     color: #fff;
     border-radius: 5vh;
     margin-top: 1vh;
+
 }
 
 .btnRemove:hover
@@ -511,28 +497,6 @@ body
     border-bottom-right-radius: 12vh;
 }
 
-.botaoVerTitulos
-{
-    display: flex;
-    position: relative;
-    width: 30vh;
-    font-size: max(20px, 1.8vh);
-    height: fit-content;
-    padding: 2vh 3vh;
-    text-align: left;
-    background: #00691d;
-    color: #fff;
-    border-top-left-radius: 10vh;
-    border-bottom-left-radius: 10vh;
-    box-shadow: -5px 5px 8px rgb(0, 4, 14)
-}
-
-.botaoVerTitulos:hover
-{
-    background: #004214;
-    box-shadow: -2px 2px 6px rgba(0, 4, 14, 0.733)
-}
-
 .arrowImg
 {
     position: relative;
@@ -568,13 +532,12 @@ body
 
 .name
 {
-    font-size: max(15px, 2vh);
+    font-size: max(15px, 1.5vh);
     font-weight: 600;
     position: relative;
     display: flex;
     padding: 1vh;
     width: 100%;
-    /* box-shadow: 2px 3px 4px #00000036; */
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -590,8 +553,6 @@ body
     position: relative;
     display: flex;
     padding: 1vh;
-    /* width: 100%; */
-    /* box-shadow: 2px 3px 4px #00000036; */
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -604,24 +565,19 @@ body
 }
 
 .btnAdicionar {
-    background-color: rgb(0, 99, 0); 
+    background: linear-gradient(45deg, #0066b9, #001424);
     box-shadow: 1vh 1vh 2vh #000000b0;
     color: white;
-    padding: 5px 10px;
-    border: none;
-    cursor: pointer; 
-    font-size: max(20px, 1.5vh);
+    font-size: max(18px, 1.8vh);
+    font-weight: 500;
     border-radius: 1vh;
     padding: 1vh;
-    /* position: absolute; */
-    /* bottom: 0; */
-    /* left: 50%;  */
-    /* transform: translateX(-50%);  */
+    transition: 500ms;
 }
 
 .btnAdicionar:hover
 {
-    background-color: rgb(0, 70, 0); 
+    background: linear-gradient(-45deg, #0066b9, #001424);
     box-shadow: 1vh 1vh 1vh #00000085;
 }
 
@@ -635,20 +591,19 @@ body
     width: 90%;
     height: 100%;
     margin: auto;
-    /* margin-right: 2vh; */
     background-repeat: no-repeat;
     background-position: 0 0;
-    background: linear-gradient(#000000c0, #000);
+    background: linear-gradient(#000000c0, #000144d5);
     background-size: cover;
     border: rgba(0, 0, 0, 0.884) 1px solid;
-    box-shadow: -50px -70px 90px #00000081;    top: 70%;
+    box-shadow: -50px -70px 90px #00000081;
+    top: 70%;
     overflow: auto;
+    padding: 2vh;
     padding-top: 6vh;
-
     z-index: 999;
     border-radius: 3vh;
     transition: 600ms ease-in-out;
-    /* overflow: auto; */
     transform: translateX(0%);
     transition: 1s;
 }
@@ -769,11 +724,10 @@ body
     /* margin: auto; */
     padding-top: 6vh;
     left: 53%;
-    bottom: 0%;
+    top: -62%;
     z-index: 1;
     border-radius: 3vh;
     transition: 600ms ease-in-out;
-    /* overflow: auto; */
     transform: translateX(0%);
     transition: 1s;
 }
@@ -821,17 +775,9 @@ body
     z-index: -999 !important;
 }
 
-.sectionSearch
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .listAvailable
 {
-    width: 10vh;
-    margin: 2vh 1vh -2vh 2vh;
+    height:  20vh;
     box-shadow: 10px 10px 50px #000;
 }
 
@@ -844,7 +790,7 @@ body
 {
     position: absolute;
     background: #044685ad;
-    font-size: max(20px, 2vh);
+    font-size: max(18px, 1.8vh);
     font-weight: 600;
     top: -3%;
     padding: 1vh 2vh;
@@ -858,4 +804,108 @@ body
     background: #000;
     width: 100%;
     height: 50vh;
+}
+
+.classUserList
+{
+    height: 15vh;
+    padding: 0;
+    margin: 0;
+}
+
+.txtVetor
+{
+    position: absolute;
+    font-size: max(20px, 2vh);
+    bottom: 105%;
+    background: #0c0024c0;
+    width: auto;
+    padding: 1vh 5vh;
+    border-radius: 1vh;
+}
+
+hr
+{
+    width: 100%;
+    height: 1vh;
+    border-radius: 5vh;
+    background: linear-gradient(90deg, #0c002400 , #0c0024);
+}
+
+@media (max-width: 425px)
+{
+    .bgGeralt
+    {
+        height: 100vh;
+        width: 130%;
+        left: -6vh;
+    }
+
+    .listContent
+    {
+        display: none;
+    }
+
+    .leftSide2 p
+    {
+        display: none;
+    }   
+
+    .leftSide2 h1
+    {
+        display: none;
+    }   
+
+    .section1 p
+    {
+        margin-top: 5vh;
+        font-size: 18px;
+        width: 150%;
+        padding: 2vh;
+        border-radius: 1vh;
+    }
+
+    .itemList
+    {
+        height: 10vh;
+    }
+
+    .listBox2
+    {
+        width: 100%;
+    }
+
+    .name
+    {
+        font-size: 15px;
+        padding: 4px;
+    }
+
+    .numb
+    {
+        font-size: 15px;
+        padding: 4px;
+    }
+
+    .btnAdicionar
+    {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .botaoVerGames
+    {
+        font-size: 15px;
+        width: 70%;
+    }
+    
+    .section1 h1
+    {
+        font-size: 15px;
+    }
+
+    .txtVetor
+    {
+        font-size: 15px;
+    }
 }

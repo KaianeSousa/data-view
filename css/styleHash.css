@@ -1,0 +1,688 @@
+body
+{
+    overflow: hidden;
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.leftSide
+{
+    flex-direction: column;
+    margin-left: 5vh;
+    width: 55%;
+}
+
+.leftSide h1
+{  
+    position: relative;
+    margin-top: 100px;
+    margin-left: 3.5vh;
+    padding: 1.5vh 3vh;
+    font-size: 2.5vh;
+    width: fit-content;
+    background: #0819b8;
+    border-radius: 1vh;
+}
+
+.leftSide p
+{
+    position: relative;
+    margin-top: 5vh;
+    left: -5vh;
+    font-size: 22px;
+    line-height: 3.5vh;
+    width: 100%;
+    padding: 3vh 4vh 3vh 3vh;
+    text-align: justify;
+    border-radius: 0 4vh 4vh 0; 
+    background: #00000090;
+    color: white;
+}
+.section1
+{
+    background-image: url(../images/imgHash/bg1.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    
+}
+
+.section2
+{
+    background-image: url(../images/imgHash/bg2.png);
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.msg
+{
+    background: linear-gradient(90deg, #2d008d00, #2D008D);
+    display: flex;
+    width: 50%;
+    font-size: max(20px, 2vh);
+    padding: 5vh;
+    border-bottom-right-radius: 100vh;
+    border-top-right-radius: 100vh;
+    height: fit-content;
+    margin-right: 50%;
+}
+
+.hashTable
+{
+    margin-top: 10%;
+    width: 70%;
+    height: 100vh;
+    background: linear-gradient(90deg, #0700159c, #000);
+    border: 1px solid #6b4ea7;
+    border-radius: 2%;
+}
+
+.keys
+{
+    /* background: #000; */
+    display: flex;
+    flex-direction: column;
+    width: 5%;
+    margin-left: -3.5%;
+    margin-top: 5%;
+}
+
+.key
+{
+    width: 9vh;
+    padding: 1vh;
+    margin-bottom: 4vh;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.key:first-child
+{
+    margin-top: 2vh;
+}
+
+.keyJsActive
+{
+    border: .4vh solid #FFC803;
+    box-shadow: .5vh .5vh 2vh #FFC803;
+}
+
+.keyJs:hover
+{
+    box-shadow: .5vh .5vh 1vh #ffc8039a;
+}
+
+.keyJavaActive
+{
+    border: .4vh solid #1565C0;
+    box-shadow: .5vh .5vh 2vh #1565C0;
+}
+
+.keyJava:hover
+{
+    box-shadow: .5vh .5vh 1vh #1565c098;
+}
+
+.keyPyActive
+{
+    border: .4vh solid #6BBCED;
+    box-shadow: .5vh .5vh 2vh #6BBCED;
+}
+
+.keyPy:hover
+{
+    box-shadow: .5vh .5vh 1vh #6bbbed9d;
+}
+
+.keyCppActive
+{
+    border: .4vh solid #fff;
+    box-shadow: .5vh .5vh 2vh #fff;
+}
+
+.keyCpp:hover
+{
+    box-shadow: .5vh .5vh 1vh #ffffff98;
+}
+
+.keyCsharpActive
+{
+    border: .4vh solid #00773E;
+    box-shadow: .5vh .5vh 2vh #00773E;
+}
+
+.keyCsharp:hover
+{
+    box-shadow: .5vh .5vh 1vh #00773ea4;
+}
+
+.keySwiftActive
+{
+    border: .4vh solid #993a1d;
+    box-shadow: .5vh .5vh 2vh #993a1d;
+}
+
+.keySwift:hover
+{
+    box-shadow: .5vh .5vh 1vh #993a1da4;
+}
+
+.keyRubyActive
+{
+    border: .4vh solid #C62828;
+    box-shadow: .5vh .5vh 2vh #C62828;
+}
+
+.keyRuby:hover
+{
+    box-shadow: .5vh .5vh 1vh #c628289f;
+}
+
+.value
+{
+    position: absolute;
+    width: 9vh;
+    padding: 1vh;
+    margin-bottom: 2vh;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.vFlask
+{
+    left: 35%;
+    top: 150%;
+
+}
+
+.vQt
+{
+    left: 35%;
+    top: 170%;
+}
+
+.vNodejs
+{
+    left: 35%;
+    top: 190%;
+
+}
+
+.vReact
+{
+    left: 35%;
+    top: 210%;
+
+}
+
+.vRails
+{
+    left: 35%;
+    top: 230%;
+
+}
+
+.vBoost
+{
+    left: 50%;
+    top: 160%;
+
+}
+
+.vAngular
+{
+    left: 50%;
+    top: 180%;
+
+}
+
+.vSelenium
+{
+    left: 50%;
+    top: 200%;
+
+}
+
+.vUikit
+{
+    left: 50%;
+    top: 220%;
+
+}
+
+.vDjango
+{
+    left: 65%;
+    top: 150%;
+
+}
+
+.vVue
+{
+    left: 65%;
+    top: 170%;
+
+}
+
+.vSpring
+{
+    left: 65%;
+    top: 190%;
+
+}
+
+.vAspnet
+{
+    left: 65%;
+    top: 210%;
+
+}
+
+.vUnity
+{
+    left: 65%;
+    top: 230%;
+
+}
+
+.line
+{
+    position: absolute;
+}
+
+.jsToNodeH1
+{
+    width: 10%;
+    height: .6vh;
+    background: #FFC803;
+    box-shadow: 1px 1px 1vh #FFC803;
+    right: 72.9%;
+    bottom: -55%;
+}
+
+.jsToNodeV
+{
+    height: 40%;
+    width: .6vh;
+    background: #FFC803;
+    box-shadow: 1px 1px 1vh #FFC803;
+    right: 72.9%;
+    bottom: -95%;
+}
+
+.jsToNodeH2
+{
+    width: 8%;
+    height: .6vh;
+    background: #FFC803;
+    box-shadow: 1px 1px 2vh #FFC803;
+    right: 64.9%;
+    bottom: -95%;
+}
+
+.jsToReactH
+{
+    width: 8%;
+    height: .6vh;
+    background: #FFC803;
+    box-shadow: 1px 1px 1vh #FFC803;
+    right: 64.9%;
+    bottom: -115%;
+}
+
+.jsToReactV
+{
+    height: 20%;
+    width: .6vh;
+    background: #FFC803;
+    box-shadow: 1px 1px 1vh #FFC803;
+    right: 72.9%;
+    bottom: -115%;
+}
+
+.jsToAngularH
+{
+    width: 23%;
+    height: .6vh;
+    background: #FFC803;
+    box-shadow: 1px 1px 1vh #FFC803;
+    right: 49.9%;
+    bottom: -85%;
+}
+
+.jsToVueH
+{
+    width: 21.1%;
+    height: .6vh;
+    background: #FFC803;
+    box-shadow: 1px 1px 1vh #FFC803;
+    right: 34.9%;
+    bottom: -75%;
+}
+
+.jsToVueV
+{
+    height: 10%;
+    width: .6vh;
+    background: #FFC803;
+    box-shadow: 1px 1px 1vh #FFC803;
+    right: 55.9%;
+    bottom: -85%;
+}
+
+.javaToSeleniumV
+{
+    height: 37%;
+    width: .1vh;
+    border: .4vh solid #1565C0;
+    box-shadow: .5vh .5vh 2vh #1565C0;
+    right: 77.9%;
+    bottom: -105%;
+}
+
+.javaToSeleniumH1
+{
+    width: 5%;
+    height: .1vh;
+    border: .4vh solid #1565C0;
+    box-shadow: .5vh .5vh 2vh #1565C0;
+    right: 77.9%;
+    bottom: -68%;
+}
+.javaToSeleniumH2
+{
+    width: 28%;
+    height: .1vh;
+    border: .4vh solid #1565C0;
+    box-shadow: .5vh .5vh 2vh #1565C0;
+    right: 49.9%;
+    bottom: -105%;
+}
+
+.javaToSpringV
+{
+    height: 10%;
+    width: .1vh;
+    border: .4vh solid #1565C0;
+    box-shadow: .5vh .5vh 2vh #1565C0;
+    right: 53.9%;
+    bottom: -105%;
+}
+
+.javaToSpringH
+{
+    width: 19.3%;
+    height: .1vh;
+    border: .4vh solid #1565C0;
+    box-shadow: .5vh .5vh 2vh #1565C0;
+    right: 35%;
+    bottom: -95%;
+    
+}
+
+.pyToFlaskV1
+{
+    height: 20%;
+    width: .1vh;
+    border: .4vh solid #6BBCED;
+    box-shadow: .5vh .5vh 2vh #6BBCED;
+    right: 79.9%;
+    bottom: -80%;
+}
+
+.pyToFlaskV2
+{
+    height: 1.2%;
+    width: .1vh;
+    border: .4vh solid #6BBCED;
+    box-shadow: .5vh .5vh 2vh #6BBCED;
+    right: 62.9%;
+    bottom: -60%;
+}
+
+.pyToFlaskH1
+{
+    width: 3%;
+    height: .1vh;
+    border: .4vh solid #6BBCED;
+    box-shadow: .5vh .5vh 2vh #6BBCED;
+    right: 79.9%;
+    bottom: -80%;
+}
+
+.pyToFlaskH2
+{
+    width: 17.3%;
+    height: .1vh;
+    border: .4vh solid #6BBCED;
+    box-shadow: .5vh .5vh 2vh #6BBCED;
+    right: 62.9%;
+    bottom: -60.5%;
+}
+
+.pyToDjangoH1
+{
+    width: 20%;
+    height: .1vh;
+    border: .4vh solid #6BBCED;
+    box-shadow: .5vh .5vh 2vh #6BBCED;
+    right: 35%;
+    bottom: -55.5%;
+}
+.pyToDjangoH2
+{
+    width: 11%;
+    height: .1vh;
+    border: .4vh solid #6BBCED;
+    box-shadow: .5vh .5vh 2vh #6BBCED;
+    right: 55%;
+    bottom: -65.5%;
+}
+
+
+.pyToDjangoV1
+{
+    height: 5%;
+    width: .1vh;
+    border: .4vh solid #6BBCED;
+    box-shadow: .5vh .5vh 2vh #6BBCED;
+    right: 65.65%;
+    bottom: -65%;
+}
+
+.pyToDjangoV2
+{
+    height: 10%;
+    width: .1vh;
+    border: .4vh solid #6BBCED;
+    box-shadow: .5vh .5vh 2vh #6BBCED;
+    right: 55%;
+    bottom: -65%;
+}
+
+.cppToQtH1
+{
+    width: 7%;
+    height: .1vh;
+    border: .4vh solid #fff;
+    box-shadow: .5vh .5vh 2vh #fff;
+    right: 75.9%;
+    bottom: -94%;
+}
+
+.cppToQtH2
+{
+    width: 11%;
+    height: .1vh;
+    border: .4vh solid #fff;
+    box-shadow: .5vh .5vh 2vh #fff;
+    right: 65%;
+    bottom: -75.5%;
+}
+
+.cppToQtV
+{
+    height: 19%;
+    width: .1vh;
+    border: .4vh solid #fff;
+    box-shadow: .5vh .5vh 2vh #fff;
+    right: 75.9%;
+    bottom: -94%;
+}
+
+.cppToBoostV
+{
+    width: 13%;
+    height: .1vh;
+    border: .4vh solid #fff;
+    box-shadow: .5vh .5vh 2vh #fff;
+    right: 48%;
+    bottom: -72%;
+}
+
+.cppToBoostH
+{
+    height: 3.2%;
+    width: .1vh;
+    border: .4vh solid #fff;
+    box-shadow: .5vh .5vh 2vh #fff;
+    right: 48%;
+    bottom: -72%;
+    
+}
+
+.csharpToNetH1
+{
+    width: 7%;
+    height: .1vh;
+    border: .4vh solid #00773E;
+    box-shadow: .5vh .5vh 2vh #00773E;
+    right: 75.9%;
+    bottom: -107%;
+}
+
+.csharpToNetV1
+{
+    height: 15%;
+    width: .1vh;
+    border: .4vh solid #00773E;
+    box-shadow: .5vh .5vh 2vh #00773E;
+    right: 75.9%;
+    bottom: -122%;
+}
+
+.csharpToNetH2
+{
+    width: 20%;
+    height: .1vh;
+    border: .4vh solid #00773E;
+    box-shadow: .5vh .5vh 2vh #00773E;
+    right: 55.9%;
+    bottom: -122%;
+}
+
+.csharpToNetV2
+{
+    height: 7%;
+    width: .1vh;
+    border: .4vh solid #00773E;
+    box-shadow: .5vh .5vh 2vh #00773E;
+    right: 55.9%;
+    bottom: -122%;
+}
+.csharpToNetH3
+{
+    width: 21.2%;
+    height: .1vh;
+    border: .4vh solid #00773E;
+    box-shadow: .5vh .5vh 2vh #00773E;
+    right: 35%;
+    bottom: -115%;
+}
+
+.csharpToNetV3
+{
+    height: 20.8%;
+    width: .1vh;
+    border: .4vh solid #00773E;
+    box-shadow: .5vh .5vh 2vh #00773E;
+    right: 40%;
+    bottom: -135%;
+}
+
+.csharpToNetH4
+{
+    width: 5%;
+    height: .1vh;
+    border: .4vh solid #00773E;
+    box-shadow: .5vh .5vh 2vh #00773E;
+    right: 35%;
+    bottom: -135%;
+}
+
+.swiftToUikitH1
+{
+    width: 5%;
+    height: .1vh;
+    border: .4vh solid #993a1d;
+    box-shadow: .5vh .5vh 2vh #993a1d;
+    right: 77.9%;
+    bottom: -120%;
+}
+
+.swiftToUikitV
+{
+    height: 5%;
+    width: .1vh;
+    border: .4vh solid #993a1d;
+    box-shadow: .5vh .5vh 2vh #993a1d;
+    right: 77.9%;
+    bottom: -125%;
+}
+
+.swiftToUikitH2
+{
+    width: 28%;
+    height: .1vh;
+    border: .4vh solid #993a1d;
+    box-shadow: .5vh .5vh 2vh #993a1d;
+    right: 49.9%;
+    bottom: -125%;
+}
+
+.rubyToRails
+{
+    width: 18%;
+    height: .1vh;
+    border: .4vh solid #C62828;
+    box-shadow: .5vh .5vh 2vh #C62828;
+    right: 64.9%;
+    bottom: -133%;
+}
+
+.keyTxt
+{
+    position: absolute;
+    left: 10%;
+    bottom: -40%;
+    font-size: max(20px, 2vh);
+}
+.valTxt
+{
+    position: absolute;
+    left: 10%;
+    bottom: -40%;
+    font-size: max(20px, 2vh);
+    left: 35%;
+}

@@ -1,9 +1,7 @@
 body
 {
     overflow: hidden;
-    color: #fff;
 }
-
 .content
 {
     display: flex;
@@ -14,7 +12,7 @@ body
 {
     background-image: url('../images/imgArvores/bg1.png');
     background-size: cover;
-    background-position: 0 0;
+    background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
     display: flex;
@@ -24,13 +22,11 @@ body
 {
     flex-direction: column;
     margin-left: 5vh;
-    width: 50%;
-    /* background: #ff0000; */
-
+    width: 60%;
 }
 
-.section1 h1
-{
+.leftSide h1
+{  
     position: relative;
     margin-top: 100px;
     margin-left: 3.5vh;
@@ -41,17 +37,16 @@ body
     border-radius: 1vh;
 }
 
-.section1 p
+.leftSide p
 {
     position: relative;
     margin-top: 5vh;
     left: -5vh;
-    font-size: 25px;
+    font-size: 22px;
     line-height: 3.5vh;
     width: 100%;
     padding: 3vh 4vh 3vh 3vh;
     text-align: justify;
-    /*(sup.esq.,sup.dir.,inf.dir., inf.esq.)*/
     border-radius: 0 4vh 4vh 0; 
     background: #00000090;
     color: white;
@@ -62,33 +57,23 @@ body
     justify-content: center;
     display: flex;
     width: 40%;
-    /* background: #ff0000; */
 }
 .imgRightSide
 {
     padding-left: 5vh;
     width:  70%;
-    /* background: #000; */
     margin-top: -5vh;
 }
 
 .section2
 {
-    background-image: url(../images/imgArvores/b2.png);
+    background-image: url(../images/imgArvores/bg2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 120vh;
     position: relative;
-    /* display: flex; */
 }
-
-/* .contentTree
-{
-    position: relative;
-    display: flex;
-    width: 90%;
-} */
 
 .btnNode
 {
@@ -96,16 +81,18 @@ body
     padding: 2vh;
     font-size: max(15px, 2vh);
     border-radius: 5vh;
-    box-shadow: 1vh 1vh 2vh #000;
+    box-shadow: 1vh 1vh 2vh #0000009a;
     font-weight: 500;
     color: #fff;
     z-index: 1;
+    transition: 500ms;
 }
 
 .btnNode:hover
 {
     opacity: .8;
     box-shadow: .5vh .5vh 1vh #0000007e;
+    padding: 2.5vh;
 
 }
 
@@ -114,6 +101,23 @@ body
     .btnNode
     {
         font-size: 15px;
+    }
+}
+
+@media (max-width: 768px)
+{
+    .btnNode
+    {
+        font-size: 15px;
+        padding: 1vh;
+    }
+
+    .btnNode:hover
+    {
+        opacity: .8;
+        box-shadow: .5vh .5vh 1vh #0000007e;
+        padding: 1.1vh;
+
     }
 }
 
@@ -284,7 +288,7 @@ body
 .redmi
 {
     bottom: 60%;
-    left: 80%;
+    left: 75%;
 }
 
 .se
@@ -299,16 +303,19 @@ body
     left: 85%;
 }
 
-.show
-{
-    display: block;
-}
-
 .line
 {
     position: absolute;
-    background: #fff;
+    background: rgba(107, 80, 80, 0.651);
     z-index: 0;
+    transition: 1s ease-in;
+}
+
+.activeLine
+{
+    box-shadow: 1px 1px 1vh rgb(255, 255, 255);
+    background: #a89494;
+    padding: 1px;
 }
 
 .l1H
@@ -514,4 +521,89 @@ body
     width: .01vh;
     bottom: 20%;
     left: 82%;
+}
+
+.l20V
+{
+    height: 17%;
+    width: .01vh;
+    bottom: 75%;
+    left: 58%;
+}
+
+.l20H
+{
+    width: 2%;
+    height: .01vh;
+    bottom: 92%;
+    left: 58%;
+}
+
+.l21H
+{
+    width: 14%;
+    height: .01vh;
+    bottom: 72%;
+    left: 60%;
+}
+
+.l22V
+{
+    height: 3%;
+    width: .01vh;
+    bottom: 72%;
+    left: 74%;
+}
+
+.l23V
+{
+    height: 5%;
+    width: .01vh;
+    bottom: 55%;
+    left: 78%;
+}
+
+.l23H
+{
+    width: 9%;
+    height: .01vh;
+    bottom: 55%;
+    left: 69%;
+}
+
+.l24V
+{
+    height: 10%;
+    width: .01vh;
+    bottom: 50%;
+    left: 69%;
+}
+
+.l25V
+{
+    height: 8%;
+    width: .01vh;
+    bottom: 44%;
+    left: 80%;
+}
+
+.l25H
+{
+    width: 5%;
+    height: .01vh;
+    bottom: 52%;
+    left: 80%;
+}
+
+.l26H
+{
+    width: 5%;
+    height: .01vh;
+    bottom: 42%;
+    left: 80%;
+}
+
+.show
+{
+    display: block;
 }

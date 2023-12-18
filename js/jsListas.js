@@ -98,7 +98,7 @@ startSliderAnimation(); // Chamando a função para iniciar a animação do slid
 
 // Definindo uma lista de objetos chamada movies, onde cada objeto representa um filme com várias propriedades
 const movies = [
-    {
+        {
         id : 1,
         bg : '../images/imgListas/list/astra-bg.png',
         completeTitle: 'Ad Astra: Rumo às Estrelas',
@@ -276,6 +276,188 @@ const movies = [
                     login no sistema para encontrar a carta, mas precisa enfrentar o inesperado.
                     A verdade é mais dura do que ele jamais poderia imaginar...—Danny Rosenbluth
                 `
+    },
+     {
+        id : 10,
+        bg : '../images/imgListas/list/blade-bg.png',
+        completeTitle : 'Blade Runner - O caçador de androides',
+        year : '(1982)',
+        name : 'Blade Runner',
+        pathFile : '../images/imgListas/list/blade.png',
+        desc : `
+                No início do século XXI, uma grande corporação desenvolve um robô que é mais 
+                forte que o ser humano e se equiparando em inteligência. São conhecidos como
+                replicantes e utilizados como escravos na colonização e exploração de outros 
+                planetas. Mas, quando um grupo dos robôs mais evoluídos provoca um motim, 
+                em uma colônia fora da Terra, este incidente faz os replicantes serem considerados 
+                ilegais na Terra, sob pena de morte. Para tanto, policiais de um esquadrão de elite
+                conhecido como Blade Runner, têm ordens para exterminar replicantes encontrados 
+                dentro do planeta. O longa de ficção científica é dirigido por Ridley Scott e conta 
+                com Rutger Hauer e Sean Young no elenco.
+            `
+    },
+    {
+        id : 11,
+        bg : '../images/imgListas/list/robocop-bg.png',
+        completeTitle : 'Robocop - O Policial do Futuro',
+        year : '(1987)',
+        name : 'Robocop',
+        pathFile : '../images/imgListas/list/robocop.png',
+        desc : `
+                Depois de ter sido mortalmente ferido em cerco a marginais, 
+                policial (Peter Weller) transformado num misto de máquina e 
+                homem a serviço da justiça, quando tem que enfrentar uma gangue 
+                disposta a dominar a cidade, sob a custódia legal de poderoso executivo.
+                Robocop inclui temáticas como corrupção, ganância, privatização,
+                distopia e gentrificação.
+        
+            `
+    },
+    {
+        id : 12,
+        bg : '../images/imgListas/list/machina-bg.png',
+        completeTitle : 'Ex Machina - Instinto Artificial',
+        year : '(2015)',
+        name : 'Ex Machina',
+        pathFile : '../images/imgListas/list/machina.png',
+        desc : `
+            Dirigido por Alex Garland, o suspense apresenta Caleb (Domhnall Gleeson), um jovem desenvolvedor
+            de software que ganha um concurso na empresa onde trabalha para passar um final de semana na 
+            casa de Nathan Bateman (Oscar Isaac), o recluso e extraordinário presidente da empresa, contudo, 
+            tudo não passa de um teste que Caleb deve ser submetido com a última criação de Nathan, 
+            Ava(Alicia Vikander), um robô com inteligência artificial.
+
+            `
+    },
+    {
+        id : 13,
+        bg : '../images/imgListas/list/interestellar-bg.png',
+        completeTitle : 'Interestelar',
+        year : '(2013)',
+        name : 'Interestelar',
+        pathFile : '../images/imgListas/list/interestellar.png',
+        desc : `
+                O longa de Christopher Nolan apresenta uma terra inóspita onde todos os recursos 
+                se esgotaram, desse modo, um grupo de astronautas recebe a missão de verificar 
+                possíveis planetas para receberem a população mundial, perpetuando assim a espécie, 
+                há diversas referências à teoria da relatividade de Einstein e os fenômenos dos 
+                buracos negros. O filme conta com Matthew McConaughey, Anne Hathaway, Marlon Sanders, 
+                Wes Bentley e Jessica Chastain. 
+
+            `
+    },
+    {
+        id : 14,
+        bg : '../images/imgListas/list/wall-bg.png',
+        completeTitle : 'Wall-e',
+        year : '(2008)',
+        name : 'Wall-e',
+        pathFile : '../images/imgListas/list/wall.png',
+        desc : `
+                Wall-e (2008) é uma animação da Disney e da Pixar, de 97 minutos. Esse filme, cujo roteiro e direção 
+                foram feitos por Andrew Stanton. O filme se inicia no ano de 2700, tendo como cenário principal o nosso 
+                planeta, basicamente desabitado. Ele se apresenta como um grande depósito de lixo, no qual o personagem 
+                principal do filme, Wall-e (Waste Allocation Load Lifters - Earth – Levantador de Carga para Alocação de 
+                Lixo – Classe 'Terra'), trabalha para compactar e organizar todo esse entulho, sozinho, uma vez que 
+                seus companheiros de profissão já se encontram estragados. Assim, ele e sua barata de estimação são 
+                os únicos habitantes daquele planeta cinzento.Wall-e, assim como outros robôs, foram enviados para a 
+                Terra pela empresa BNL para executar esse serviço. Enquanto isso, os seres humanos se protegem de toda 
+                a toxidez de nosso planeta na estação espacial Axiom. O plano era que ficassem somente por cinco anos ali,
+                esperando a conclusão de tal trabalho para retornarem ao nosso planeta; mas acabam ficando aproximadamente
+                700 anos. Para verificar se a Terra já está habitável, a empresa envia robôs para lá, sendo um deles a Eva
+                (Examinadora de Vegetação Alienígena), que se apaixonará pelo personagem principal (e vice-versa).
+            `
+    },
+    {
+        id : 15,
+        bg : '../images/imgListas/list/elysium-bg.png',
+        completeTitle : 'Elysium',
+        year : '(2013)',
+        name : 'Elysium',
+        pathFile : '../images/imgListas/list/ely.png',
+        desc : `
+                No ano de 2159, existem duas classes de pessoas: os ricos e abastados, 
+                que vivem numa estação espacial chamada Elysium, e o resto, que vive numa 
+                Terra arruinada e superpopulosa. A Secretária Rhodes (Jodie Foster), uma 
+                oficial durona do governo, fará de tudo para garantir que as leis anti-imigração 
+                sejam obedecidas à risca, para preservar o luxuoso estilo de vida dos cidadãos de Elysium. 
+                Isso não impedirá o povo da Terra de tentar entrar, de qualquer forma possível. 
+                Quando o azarado Max (Matt Damon) é colocado contra a parede, ele concorda em participar
+                numa assustadora missão que, se bem sucedida, não só salvará sua vida, mas pode trazer
+                igualidade nestes mundos polarizados. O elenco conta com Matt Damon, Wagner Moura,
+                Jodie Foster e Alice Braga.
+            `
+    },
+    
+    {
+        id : 16,
+        bg : '../images/imgListas/list/matrix-bg.png',
+        completeTitle : 'The Matrix',
+        year : '(1999)',
+        name : 'The Matrix',
+        pathFile : '../images/imgListas/list/matrix.png',
+        desc : `
+                Em um futuro próximo, Thomas Anderson (Keanu Reeves), um jovem programador que 
+                mora em um cubículo escuro é atormentado por sonhos estranhos nos quais encontra-se
+                conectado por cabos contra sua própria vontade em um sistema composto por computadores
+                futuristas. Por meio do encontro com os misteriosos Morpheus (Laurence Fishburne) e Trinity 
+                (Carrie-Anne Moss), Thomas descobre que é, assim como outras pessoas, vítima da Matrix, um 
+                super sistema inteligente e artificial que manipula a mente dos indivíduos e cria a ilusão de
+                um mundo real enquanto usa os cérebros e corpos das pessoas para produzir energia. Morpheus, 
+                entretanto, acredita que Thomas é Neo, o aguardado messias que será capaz de enfrentar a Matrix
+                e conduzir de volta as pessoas à realidade e à liberdade. 
+            `
+    },
+    {
+        id : 17,
+        bg : '../images/imgListas/list/gravity-bg.png',
+        completeTitle : 'Gravidade',
+        year : '(2013)',
+        name : 'Gravidade',
+        pathFile : '../images/imgListas/list/gravity.png',
+        desc : `
+                Matt Kowalski (George Clooney) é um astronauta experiente que está em missão de conserto 
+                ao telescópio Hubble juntamente com a doutora Ryan Stone (Sandra Bullock). Ambos são 
+                surpreendidos por uma chuva de destroços decorrente da destruição de um satélite por um 
+                míssil russo, que faz com que sejam jogados no espaço sideral. Sem qualquer apoio da base 
+                terrestre da NASA, eles precisam encontrar um meio de sobreviver em meio a um ambiente
+                completamente inóspito para a vida humana.
+            `
+    },
+    {
+        id : 18,
+        bg : '../images/imgListas/list/exterminator-bg.png',
+        completeTitle : 'Schwarzenegger - O Exterminador do Futuro',
+        year : '(1984)',
+        name : 'O Exterminador',
+        pathFile : '../images/imgListas/list/exterminator.png',
+        desc : `
+                Num futuro próximo, a guerra entre humanos e máquinas foi deflagrada. 
+                Com a tecnologia a seu dispor, um plano inusitado é arquitetado pelas
+                máquinas ao enviar para o passado um andróide (Arnold Schwarzenegger) 
+                com a missão de matar a mãe (Linda Hamilton) daquele que viria a se 
+                transformar num líder e seu pior inimigo. Contudo, os humanos também 
+                conseguem enviar um representante (Michael Biehn) para proteger a mulher 
+                e tentar garantir o futuro da humanidade.
+            `
+    },
+
+    {
+        id : 19,
+        bg : '../images/imgListas/list/future-bg.png',
+        completeTitle : 'De Volta para o Futuro',
+        year : '(1985)',
+        name : 'De Volta para o Futuro',
+        pathFile : '../images/imgListas/list/future.png',
+        desc : `
+                Dirigida por  Robert Zemeckis e estrelada por Michael J. Fox e Christopher Lloyd. 
+                O protagonista Marty McFly (Michael J. Fox) aciona acidentalmente uma máquina do
+                tempo construída pelo cientista Doc Brown (Christopher Lloyd) em um Delorean,
+                retornando aos anos 1950, onde conhece sua mãe antes do casamento com seu pai,
+                que se apaixona por ele. Tal eventualidade colocaria em risco sua própria
+                existência, pois seria pelos paradoxos de causalidade, isso o força a servir
+                    de cupido entre seus pais.
+            `
     }
 ]
 
@@ -435,8 +617,11 @@ class LinkedList
 const userList = new LinkedList();
 
 // Função que cria dinamicamente elementos HTML para representar um usuário
-const createDynamicElement = (imagePath) =>
-{
+const createDynamicElement = (imagePath) => {
+    if (addedElements.has(imagePath)) {
+        console.log('Elemento já existe na lista:', imagePath);
+        return null; // Retorna nulo para indicar que o elemento não foi adicionado
+    }
     // Criando elementos HTML
     const spanElement = document.createElement('span');
     const divElement = document.createElement('div');
@@ -462,8 +647,31 @@ const createDynamicElement = (imagePath) =>
     // Adicionando o elemento div 'itemBox' a algum elemento com o ID 'listBox' no DOM
     listBox.appendChild(divElement);
 
+    const removeButton = divElement.querySelector('.btnRemove');
+    removeButton.addEventListener('click', () => {
+        // Remove o listBoxItem ao clicar no botão "Remover"
+        // Seleciona o primeiro elemento com a classe 'itemBox' no DOM
+        const itemBox = document.querySelector('.itemBox');
+        listBox.removeChild(divElement);
+
+        // updateIndices();
+        // Remove o elemento do conjunto para permitir adição futura
+        addedElements.delete(imagePath);
+    });
+
+    // Adiciona o novo elemento ao conjunto para evitar duplicatas
+    addedElements.add(imagePath);
+
     return divElement; // Retornando o elemento div criado para possível manipulação posterior
-}
+};
+
+// Conjunto para rastrear elementos já adicionados
+const addedElements = new Set();
+
+// Função para verificar se o elemento já foi adicionado
+const isElementAlreadyAdded = (imagePath) => {
+    return addedElements.has(imagePath);
+};
 
 // Seleciona o primeiro elemento com a classe 'itemBox' no DOM
 const itemBox = document.querySelector('.itemBox');
@@ -476,22 +684,13 @@ let index; // Variável para armazenar um índice
 const imgAddedName = []; // Lista para armazenar nomes de imagens adicionados
 let tempImgAddedName; // Variável temporária para armazenar um nome de imagem
 
-// Função para atualizar a lista no DOM com base nos dados da lista encadeada
-const updateListBox = () =>
-{
-    listBox.innerHTML = '';
-    userList.forEach((node) =>
-    {
-        listBox.appendChild(node.data);
-    });
-}
 
 // Função para adicionar um elemento no início da lista
 const AddInicioFunc = () =>
 {
     const element = createDynamicElement(movies[index].pathFile);
+    listBox.insertBefore(element, listBox.firstChild);
     userList.insertStart(element);
-    updateListBox();
 }
 
 // Função para adicionar um elemento no final da lista
@@ -499,30 +698,36 @@ const AddFimFunc = () =>
 {
     const element = createDynamicElement(movies[index].pathFile);
     userList.insertEnd(element);
-    updateListBox();
 }
 
 // Função para confirmar adição no meio da lista
-const confirmAddMeio = () =>
-{
+const confirmAddMeio = () => {
     console.log(`Input: ${valueInput.value}`);
 
-    btnConfirmAddMeio.addEventListener('click', () =>
-    {
-        if (valueInput.value !== '')
-        {
+    btnConfirmAddMeio.addEventListener('click', () => {
+        if (valueInput.value !== '') {
             // Validar se valueInput.value é um número
             const indexToAdd = parseInt(valueInput.value);
 
             // Validar se o índice está dentro dos limites da lista
-            if (!isNaN(indexToAdd) && indexToAdd >= 0 && indexToAdd <= userList.size())
-            {
+            if (!isNaN(indexToAdd) && indexToAdd >= 0 && indexToAdd <= listBox.children.length) {
                 const element = createDynamicElement(movies[index].pathFile);
-                
+
                 console.log(`Element: ${element.innerHTML}`);
 
-                userList.insertAfter(indexToAdd, element);
-                updateListBox();
+                // Encontrar o elemento na posição indexToAdd na lista
+                const existingElement = listBox.children[indexToAdd];
+
+                // Inserir o novo elemento antes do elemento encontrado
+                if (existingElement) {
+                    // listBox.insertBefore(element, existingElement);
+                    listBox.insertBefore(element, listBox.firstChild);
+
+                } else {
+                    // Se o elemento não existe, adicionar no final da lista
+                    listBox.appendChild(element);
+                }
+
                 resetInputVisibility();
 
                 valueInput.value = '';
@@ -534,26 +739,22 @@ const confirmAddMeio = () =>
             }
         }
     });
-}
+};
 
 // Função para adicionar um elemento no meio da lista (interação com usuário)
 const AddMeioFunc = () =>
 {
-    if (!imgAddedName.includes(tempImgAddedName))
-    {
-        input.classList.toggle('hiddenInput');
-        btnAddInicio.classList.toggle('hiddenInput');
-        btnAddFim.classList.toggle('hiddenInput');
-        btnAddMeio.classList.toggle('hiddenInput');
-    }
+    input.classList.toggle('hiddenInput');
+    btnAddInicio.classList.toggle('hiddenInput');
+    btnAddFim.classList.toggle('hiddenInput');
+    btnAddMeio.classList.toggle('hiddenInput');
+    
     // Cancela a adição no meio da lista
     btnCancelAddMeio.addEventListener('click', () =>
     {
         resetInputVisibility();
         return;
     });
-
-    updateListBox();
 }
 
 // Cria listener para adicionar no meio
@@ -562,6 +763,10 @@ btnAddMeio.addEventListener('click', () => AddMeioFunc());
 // Função para atualizar os índices exibidos no DOM
 const updateIndices = () =>
 {
+    document.querySelectorAll('.itemBox').forEach((el, idx) =>
+    {
+        el.id = idx - 20;
+    });
     document.querySelectorAll('.numb').forEach((el, idx) =>
     {
         el.textContent = idx;
@@ -583,38 +788,32 @@ const handleButtonClick = (actionType) =>
     // Verifica se a lista de filmes está definida e se o índice é válido
     if (movies && movies.length > index && movies[index])
     {
-        // Verifica se o nome temporário já está na lista de nomes adicionados
-        if (imgAddedName.includes(tempImgAddedName))
-        {
-            // console.log('Elemento já presente na lista!');
-            // Mensagem para o usuário informando que o filme já está na lista
-            titleOpc.textContent = 'Elemento já presente na lista!';
-        }
-        else
-        {
-            // Executa ação com base no tipo de ação passado como parâmetro
-            switch (actionType)
-            {
-                case 'addInicio':
-                    AddInicioFunc();
-                    break;
-                case 'addFim':
-                    AddFimFunc();
-                    break;
-                case 'addMeio':
-                    confirmAddMeio();
-                    break;
-                default:
-                    console.error('Ação não reconhecida.');
-                    return;
-            }
+        console.log('Elemento já presente na lista!');
+        // Mensagem para o usuário informando que o filme já está na lista
+        titleOpc.textContent = 'Elemento já presente na lista!';
 
-            // Adiciona o nome do filme à lista de nomes adicionados
-            imgAddedName.includes(movies[index].name) ? '' : imgAddedName.push(movies[index].name);
-
-            // console.log('imgAddedName: ' + imgAddedName);
-            // console.log('tempImgAddedName: ' + tempImgAddedName);
+        // Executa ação com base no tipo de ação passado como parâmetro
+        switch (actionType)
+        {
+            case 'addInicio':
+                AddInicioFunc();
+                break;
+            case 'addFim':
+                AddFimFunc();
+                break;
+            case 'addMeio':
+                confirmAddMeio();
+                break;
+            default:
+                console.error('Ação não reconhecida.');
+                return;
         }
+
+        // Adiciona o nome do filme à lista de nomes adicionados
+        imgAddedName.includes(movies[index].pathFile) ? '' : imgAddedName.push(movies[index].pathFile);
+
+        console.log('imgAddedName: ' + imgAddedName);
+        console.log('tempImgAddedName: ' + tempImgAddedName);
     }
     else
     {
@@ -631,7 +830,7 @@ const handleButtonClick = (actionType) =>
     // Ajusta os IDs dos elementos no DOM
     document.querySelectorAll('.itemBox').forEach((el, idx) =>
     {
-        el.id = idx - 10;
+        el.id = idx - 20;
     });
 
     // Atualiza os índices exibidos no DOM
@@ -639,6 +838,7 @@ const handleButtonClick = (actionType) =>
     {
         el.textContent = idx;
     });
+
 }
 
 // Adiciona um ouvinte de evento de clique ao botão 'Adicionar no Início'
@@ -647,74 +847,6 @@ btnAddInicio.addEventListener('click', () => handleButtonClick('addInicio'));
 btnAddFim.addEventListener('click', () => handleButtonClick('addFim'));
 // Adiciona um ouvinte de evento de clique ao botão 'Confirmar'
 btnConfirmAddMeio.addEventListener('click', () => handleButtonClick('addMeio'));
-
-// Função para remover um filme da lista
-const removeMovie = () =>
-{
-    // Adiciona um ouvinte de eventos de clique ao elemento com o ID 'listBox'
-    listBox.addEventListener('click', (event) =>
-    {
-        // Verifica se o elemento clicado possui a classe 'btnRemove'
-        if (event.target.classList.contains('btnRemove'))
-        {
-            // Encontra o elemento pai mais próximo com a classe 'itemBox'
-            const itemBox = event.target.closest('.itemBox');
-
-            // Inicializa variáveis para percorrer a lista encadeada
-            let current = userList.head;
-            let previous = null;
-            let found = false;
-
-            // Percorre a lista encadeada até encontrar o elemento correspondente ao itemBox
-            while (current)
-            {
-                if (current.data === itemBox)
-                {
-                    found = true;
-                    break;
-                }
-
-                previous = current;
-                current = current.next;
-            }
-
-            // Se o elemento foi encontrado
-            if (found)
-            {
-                // Obtém o nome do item a ser removido da lista de nomes adicionados
-                const removedItemName = imgAddedName[index];
-
-                // Encontra o índice do nome na lista de nomes adicionados e remove-o
-                const indexToRemove = imgAddedName.indexOf(removedItemName);
-                if (indexToRemove !== -1)
-                {
-                    imgAddedName.splice(indexToRemove, 1);
-                    console.log('Elemento removido de imgAddedName:', removedItemName);
-                }
-
-                // Remove o elemento da lista encadeada
-                if (previous)
-                {
-                    previous.next = current.next;
-                }
-                else
-                {
-                    userList.head = current.next;
-                }
-
-                // Remove o elemento do DOM
-                itemBox.remove();
-                console.log('Elemento removido:', itemBox);
-
-                // Atualiza o tamanho da lista encadeada
-                userList.length--;
-            }
-        }
-    });
-}
-// Chama a função para remover filmes
-removeMovie();
-
 
 // Função para lidar com o submenu de opções para filmes disponíveis
 const subMenu = () =>
@@ -747,7 +879,7 @@ const subMenu = () =>
             const movie = movies[index];
             movie.id = index;
 
-            tempImgAddedName = movie.name;
+            tempImgAddedName = movie.pathFile;
 
             // Exibe informações no console
             console.log('Nome do filme: ' + movie.name);
@@ -778,7 +910,7 @@ const subMenu = () =>
             btnAddMeio.classList.remove('hiddenInput');
 
             // Reinicializa o índice
-            index = 0;
+            // index = 0;
         });
     });
 }
@@ -791,6 +923,13 @@ let selectedElement = null;
 // Adiciona um ouvinte de evento de clique à listBox
 listBox.addEventListener('click', (event) =>
 { 
+    const subdomain = window.location.hostname.split('.')[0]; // Obtem a primeira parte do dominio da página
+    const pathArray = window.location.pathname.split('/'); // Obtem o caminho da URL atual da página da web em que o script está sendo executado. 
+    const repository = pathArray[1]; // Armazena o nome do repositório, que estar na segunda posição do array
+    console.log(`pathArray: ${pathArray}`);
+    console.log(`repository: ${repository}`);
+    console.log(`subdomain: ${subdomain}`);
+
     // Verifica se o clique ocorreu em um elemento com a classe 'classUserList'
     if (event.target.classList.contains('classUserList'))
     {
@@ -817,66 +956,77 @@ listBox.addEventListener('click', (event) =>
             selectedElement = itemBox;
         }
 
-        // Itera sobre os filmes para encontrar o correspondente ao item clicado
-        /*
-        for (let i = 0; i < movies.length; i++)
+        if (subdomain === '127') // Caso esteja rodando localmente a primeira parte do dominio da página retornará 127
         {
-            let url = movies[i].pathFile;
-            let itemBoxSrc = itemBox.src;
-            let relativeItemBox = new URL(itemBoxSrc, window.location.origin).pathname;
-            let relativeUrl = new URL(url, window.location.origin).pathname;
-
-            // Verifica se a URL do filme corresponde à URL do item clicado
-            if (relativeUrl === relativeItemBox) {
-                // Atualiza os elementos na página com informações do filme
-                titleSelected.innerHTML = movies[i].completeTitle;
-                description.innerHTML = movies[i].desc;
-                yearSelected.innerHTML = movies[i].year;
-                bgList.src = movies[i].bg;
-
-                // Adiciona ou remove classes para animações
-                bgList.classList.toggle('bgListAnimation');
-                boxDesc.classList.toggle('animationBoxDesc');
-
-                console.log("Elemento clicado!");
-            }
-        }
-        */
-        
-        //*********************** This Section is for Github Pages. Uncomment if Necessary ***********************
-        for (let i = 0; i < movies.length; i++)
-        {
-            let url = movies[i].pathFile;
-            let itemBoxSrc = itemBox.src
-            let relativeItemBox = new URL(itemBoxSrc, window.location.origin).pathname
-            let relativeUrl = new URL(url, window.location.origin).pathname
-
-            let convertURL = `/View-Data-Structure${relativeUrl.toString()}`;
-            let convertItemBox = relativeItemBox.toString();
-            console.log(`itemBox.src: ${itemBoxSrc}`);
-            console.log(`url: ${url}`);
-            console.log(`RelativeItemBox: ${relativeItemBox}`)
-            console.log(`Relative url: ${relativeUrl}`);
-            console.log(`convertURL: ${convertURL}`);
-            console.log(`convertItemBox ${convertItemBox}`);
-            if (convertURL == convertItemBox)
+            // Itera sobre os filmes para encontrar o correspondente ao item clicado                
+            for (let i = 0; i < movies.length; i++)
             {
-                titleSelected.innerHTML = '';
-                description.innerHTML = '';
-                src = movies[i].bg;
-
-                titleSelected.innerHTML = movies[i].completeTitle;
-                
-                description.innerHTML = movies[i].desc
-                yearSelected.innerHTML = movies[i].year;
-                // console.log(bgList);
-                bgList.src = src;  
-                console.log("Elemento clicado!");
-                bgList.classList.toggle('bgListAnimation');
-                boxDesc.classList.toggle('animationBoxDesc');
+                let url = movies[i].pathFile;
+                let itemBoxSrc = itemBox.src;
+                let relativeItemBox = new URL(itemBoxSrc, window.location.origin).pathname;
+                let relativeUrl = new URL(url, window.location.origin).pathname;
+    
+                // Verifica se a URL do filme corresponde à URL do item clicado
+                if (relativeUrl === relativeItemBox) {
+                    console.log(`itemBox.src: ${itemBoxSrc}`);
+                    console.log(`url: ${url}`);
+                    console.log(`RelativeItemBox: ${relativeItemBox}`)
+                    console.log(`Relative url: ${relativeUrl}`);
+                    // Atualiza os elementos na página com informações do filme
+                    titleSelected.innerHTML = movies[i].completeTitle;
+                    description.innerHTML = movies[i].desc;
+                    yearSelected.innerHTML = movies[i].year;
+                    bgList.src = movies[i].bg;
+    
+                    // Adiciona ou remove classes para animações
+                    bgList.classList.toggle('bgListAnimation');
+                    boxDesc.classList.toggle('animationBoxDesc');
+    
+                    console.log("Elemento clicado!");
+                }
             }
         }
-        //*********************** This Section is for Github Pages. Uncomment if Necessary ***********************
+        else // Case o retorno seja diferente de 127 significa que o site estar rodando no GitHub pages
+        {
+            // Mesma função do trecho acima
+            for (let i = 0; i < movies.length; i++)
+            {
+                let url = movies[i].pathFile;
+                let itemBoxSrc = itemBox.src
+                let relativeItemBox = new URL(itemBoxSrc, window.location.origin).pathname
+                let relativeUrl = new URL(url, window.location.origin).pathname
+    
+                let convertURL = `/${repository + relativeUrl.toString()}`; // Obtem o nome do repositório para fazer o caminho correto dos arquivos
+                let convertItemBox = relativeItemBox.toString();
+    
+                if (convertURL == convertItemBox)
+                {
+                    console.log(`convertURL: ${convertURL}`);
+                    console.log(`convertItemBox: ${convertItemBox}`);
+    
+                    console.log(`itemBox.src: ${itemBoxSrc}`);
+                    console.log(`url: ${url}`);
+                    console.log(`RelativeItemBox: ${relativeItemBox}`)
+                    console.log(`Relative url: ${relativeUrl}`);
+                    console.log(`convertURL: ${convertURL}`);
+                    console.log(`convertItemBox ${convertItemBox}`);
+
+                    titleSelected.innerHTML = '';
+                    description.innerHTML = '';
+                    src = movies[i].bg;
+    
+                    titleSelected.innerHTML = movies[i].completeTitle;
+                    
+                    description.innerHTML = movies[i].desc
+                    yearSelected.innerHTML = movies[i].year;
+                    // console.log(bgList);
+                    bgList.src = src;  
+                    console.log("Elemento clicado!");
+                    bgList.classList.toggle('bgListAnimation');
+                    boxDesc.classList.toggle('animationBoxDesc');
+                }
+            }
+        }
     }
 });
 
