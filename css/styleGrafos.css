@@ -2,38 +2,36 @@ body
 {
     overflow: hidden;
 }
-/* Estilos para a seção de conteúdo principal */
 .content
 {
     display: flex;
     flex-direction: column;
     color: #fff;
-    overflow: hidden;
+
 }
 
-/* Estilos para a primeira seção */
 .section1
 {
-    background-image: url('../images/imgGrafos/bg6.png');
+    background-image: url('../images/imgGrafos/bg1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     display: flex;
     flex-direction: row;
-
+    
 }
 
 .leftSide
 {
     flex-direction: column;
     margin-left: 5vh;
-    width: 50%;
+    width: 55%;
 }
 
 .leftSide h1
-{
+{  
     position: relative;
     margin-top: 100px;
     margin-left: 3.5vh;
@@ -49,16 +47,16 @@ body
     position: relative;
     margin-top: 5vh;
     left: -5vh;
-    font-size: 25px;
+    font-size: 22px;
     line-height: 3.5vh;
     width: 100%;
     padding: 3vh 4vh 3vh 3vh;
     text-align: justify;
-    /*(sup.esq.,sup.dir.,inf.dir., inf.esq.)*/
     border-radius: 0 4vh 4vh 0; 
     background: #00000090;
-
+    color: white;
 }
+
 .rightSide
 {
     /* background: #ff0000; */

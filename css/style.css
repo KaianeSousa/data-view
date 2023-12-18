@@ -1,15 +1,18 @@
-:root {
-    --black: #333;
-    --light-color: rgb(255, 255, 255);
-    --box-shadow: 0.5rem 1.5rem rgba(0, 0, 0, .1);
+:root{
+    --black : #333;
+    --light-color : rgb(255, 255, 255);
+    --box-shadow : 0.5rem 1.5rem rgba(0,0,0,.1);
 }
 
-/* Estilos para a seção Home */
 .home {
-    display: flex;
-    align-items: center;
+    display : flex;
+    align-items : center;
     height: 100vh;
     justify-content: flex-start;
+}
+
+.home {
+    display: flex;
     background-image: url(../images/gamer.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -18,51 +21,56 @@
     text-align: center;
 }
 
-.home h1 {
+.home h1
+{
     color: white;
     font-size: max(20px, 3vw);
     font-weight: 400;
+        letter-spacing: .5vh;
+        padding: 1vh;
+}
+.home h2
+{
+    color : #fff;
+    font-size:  max(35px, 5vw);
     letter-spacing: .5vh;
     padding: 1vh;
 }
-
-.home h2 {
-    color: #fff;
-    font-size: max(35px, 5vw);
-    letter-spacing: .5vh;
-    padding: 1vh;
-}
-
-.home p {
-    color: #ffffff;
+.home p
+{  
+    color : #ffffff;
     font-size: max(15px, 1.5vw);
-    padding: 5vh;
+    padding : 5vh;
     margin-top: 1vh;
     letter-spacing: .5vh;
 }
 
-/* Estilos para a seção de conteúdo */
-.content {
+.content
+{
     background: #060429a4;
     border-top-right-radius: 5rem;
     border-bottom-right-radius: 5rem;
     padding: 1rem 5rem;
-    box-shadow: 3px 2px 5px rgba(0, 0, 0, .4);
+    box-shadow: 3px 2px 5px rgba(0,0,0,.4);
 }
 
-hr {
-    border: .5px solid #2596d8;
+hr
+{
+	border: .5px solid  #2596d8;
     width: 100%;
     margin: auto;
     display: flex;
 }
 
-/* Estilos específicos para telas menores (máximo de 413 pixels de largura) */
-@media (max-width: 413px) {
-    .home h1,
+@media (max-width: 413px)
+{
+    .home h1, 
     .home h2,
-    .home p {
+    .home p
+    {
         letter-spacing: .2vw;
-        padding: .5vh;
+            padding : .5vh;
+
     }
+
 }

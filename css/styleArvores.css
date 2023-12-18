@@ -2,7 +2,6 @@ body
 {
     overflow: hidden;
 }
-
 .content
 {
     display: flex;
@@ -13,7 +12,7 @@ body
 {
     background-image: url('../images/imgArvores/bg1.png');
     background-size: cover;
-    background-position: 0 0;
+    background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
     display: flex;
@@ -23,13 +22,11 @@ body
 {
     flex-direction: column;
     margin-left: 5vh;
-    width: 70%;
-    /* background: #ff0000; */
-
+    width: 60%;
 }
 
 .leftSide h1
-{
+{  
     position: relative;
     margin-top: 100px;
     margin-left: 3.5vh;
@@ -45,12 +42,11 @@ body
     position: relative;
     margin-top: 5vh;
     left: -5vh;
-    font-size: 25px;
+    font-size: 22px;
     line-height: 3.5vh;
     width: 100%;
     padding: 3vh 4vh 3vh 3vh;
     text-align: justify;
-    /*(sup.esq.,sup.dir.,inf.dir., inf.esq.)*/
     border-radius: 0 4vh 4vh 0; 
     background: #00000090;
     color: white;
@@ -71,7 +67,7 @@ body
 
 .section2
 {
-    background-image: url(../images/imgArvores/b2.png);
+    background-image: url(../images/imgArvores/bg2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

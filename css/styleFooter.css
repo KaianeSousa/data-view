@@ -1,6 +1,5 @@
-/* Estilo para o rodapé da página */
-
-.footerBody {
+.footerBody
+{
     position: relative;
     display: flex;
     background: linear-gradient(#060429, rgb(0, 0, 0)) no-repeat;
@@ -10,7 +9,8 @@
     padding-top: 1vw;
 }
 
-.lastText {
+.lastText
+{
     display: flex;
     color: #73a4c5;
     align-items: center;
@@ -23,21 +23,21 @@
     padding: 5vw;
 }
 
-/* Ajuste de altura do rodapé para telas menores que 768px */
-@media (max-width: 768px) {
-    .footerBody {
+@media (max-width: 768px) 
+{
+    .footerBody
+    {
         height: 60vh;
     }
 }
-
-/* Elemento visual de onda no rodapé */
-.wave {
+.wave
+{
     background: #000;
     margin-bottom: -5px;
 }
 
-/* Estilo para o logotipo do rodapé */
-.logoFooter {
+.logoFooter
+{
     margin-top: 100px;
     width: 7rem;
     height: 7rem;
@@ -50,16 +50,16 @@
     z-index: -1;
 }
 
-/* Estilo para um nome ou data no rodapé */
-.dataName {
+.dataName
+{
     width: fit-content;
     margin: 5vw auto;
     color: aliceblue;
     font-size: max(25px, 2vw);
 }
 
-/* Estilo para uma frase no rodapé */
-.phrase {
+.phrase
+{
     font-weight: 500;
     font-size: max(12px, 1vw);
     color: #4f758f;
@@ -71,37 +71,37 @@
     margin-bottom: 3vw;
 }
 
-/* Estilo para links no rodapé */
-a {
+a
+{
     color: #4f758f;
 }
 
-/* Estilo para a seção chamada "Squad" */
-.squad {
+.squad
+{
+    /* background: #000; */
     width: 50%;
     padding-left: 2%;
     margin-top: -30vh;
     padding-bottom: 30vh;
+    /* margin-left: 5%; */
 }
-
-/* Estilo para o título da seção "Squad" */
-.titleSquad {
-    color: #35556bd2;
+.titleSquad
+{
+    color:  #35556bd2;
     font-size: max(20px, 1.2vw);
     margin-bottom: 2vh;
     margin-left: -3.5vh;
 }
-
-/* Estilo para links dentro da seção "Squad" */
-.squad a {
+.squad a
+{
     display: flex;
     font-size: max(10px, 1.8vh);
     color: #51748b8f;
     cursor: pointer;
 }
 
-/* Estilo para parágrafos dentro de links */
-a p {
+a p
+{
     padding: 0 1% 0 .5%;
     font-size: max(18px, 2vh);
     color: #6790ac;
@@ -109,24 +109,70 @@ a p {
     transition: 2000ms ease-in-out;
 }
 
-/* Efeito de transição ao passar o mouse sobre parágrafos de links */
-a p:hover {
+a p:hover
+{
     font-size: max(25px, 2.3vh);
     transition: 1000ms ease-in-out;
-    text-shadow: .5vh .5vh 5vh #bdceda;
+    /* font-weight: 600; */
+    text-shadow: 10px 10px 10px #000000;
 }
 
-/* Espaçamento à esquerda para elementos com a classe "dev2" */
-.dev2 {
+.dev2
+{
     padding-left: 4%;
 }
-
-/* Espaçamento à esquerda para elementos com a classe "dev3" */
-.dev3 {
+.dev3
+{
     padding-left: 8%;
 }
-
-/* Espaçamento à esquerda para elementos com a classe "dev4" */
-.dev4 {
+.dev4
+{
     padding-left: 4%;
+}
+
+@media (max-width: 375px)
+{
+    .footerBody
+    {
+        height: 100vh;
+    }
+
+    .squad
+    {
+        margin-top: 0;
+        padding-bottom: 0;
+        width: 100%;
+    }
+
+    .titleSquad
+    {
+        color:  #35556bd2;
+        font-size: 15px;
+        margin-bottom: 2vh;
+        margin-left: 0vh;
+    }
+    .squad a
+    {
+        display: flex;
+        font-size: 12px;
+        color: #51748b8f;
+        cursor: pointer;
+    }
+
+    a p
+    {
+        padding: 0 1% 0 .5%;
+        font-size: 15px;
+        color: #6790ac;
+        font-weight: 500;
+        transition: 2000ms ease-in-out;
+    }
+
+    a p:hover
+    {
+        font-size: 14px;
+        transition: 1000ms ease-in-out;
+        /* font-weight: 600; */
+        text-shadow: 5px 5px 5px #000000;
+    }
 }

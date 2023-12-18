@@ -15,7 +15,7 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0;
-    height: 110vh;
+    height: 100vh;
     width: 100%;
     display: flex;
 }
@@ -24,11 +24,11 @@ body
 {
     flex-direction: column;
     margin-left: 5vh;
-    width: 50%;
+    width: 60%;
 }
 
 .leftSide h1
-{
+{  
     position: relative;
     margin-top: 100px;
     margin-left: 3.5vh;
@@ -44,17 +44,15 @@ body
     position: relative;
     margin-top: 5vh;
     left: -5vh;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 3.5vh;
-    width: 110%;
+    width: 100%;
     padding: 3vh 4vh 3vh 3vh;
     text-align: justify;
-    /*(sup.esq.,sup.dir.,inf.dir., inf.esq.)*/
     border-radius: 0 4vh 4vh 0; 
     background: #00000090;
-
+    color: white;
 }
-
 @media (max-width: 320px)
 {
     .section1 p
@@ -71,7 +69,7 @@ body
 .shelfImg
 {
     position: relative;
-    margin: 5vh 10vh;
+    margin: 2vh 10vh;
     width: 70vh;
 }
 
@@ -161,7 +159,6 @@ body
 
 .section2
 {
-    
     background-image: url('../images/imgListas/bg2.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -175,7 +172,7 @@ body
 
 .title2
 {
-    font-size: 2.5vh;
+    font-size: max(20px, 2vh);
     background: #0a2945;
     text-align: right;
     width: 100%;
@@ -183,30 +180,22 @@ body
     margin-top: 5vh;
     border-top-right-radius: 10vh;
     border-bottom-right-radius: 10vh;
-    z-index: 500;
 }
 
 .circleText
 {
     background: linear-gradient(#00000000, #000000);
     box-shadow: 7px 8px 5px #000;
-    font-size: 22px;
+    font-size: max(20px, 2vh);
     margin-left: 5vh;
     width: 37vh;
     height: auto;
     padding: 5vh;
-    margin-top: -3vh;
     border-radius: 100%;
     text-align: center;
     align-items: center;
-    z-index: -50;
 
 }
-.text-in-circle{
-   
-    padding-top: 2vh;
-}
-
 
 .leftSide2
 {
@@ -433,7 +422,7 @@ body
     background: #0A2945;
     margin: auto 0;
     padding: 1.5vh 8vh;
-    font-size: max(25px, 1vh);
+    font-size: max(18px, 2vh);
     width: 35vh;
     height: fit-content;
     border-top-right-radius: 12vh;
@@ -445,7 +434,7 @@ body
     display: flex;
     position: relative;
     width: 30vh;
-    font-size: max(20px, 1.8vh);
+    font-size: max(18px, 2vh);
     height: fit-content;
     padding: 2vh 3vh;
     text-align: left;
@@ -637,10 +626,11 @@ body
     height: 50vh;
     position: absolute;
     align-items: center;
+    text-align: center;
     justify-content: center;
     margin: auto;
     padding-top: 6vh;
-    left: 60%;
+    left: 58%;
     bottom: 100%;
     z-index: 999;
     border-radius: 3vh;
@@ -648,7 +638,6 @@ body
     overflow: auto;
     transition: 1s;
     transform: translateX(0%);
-    transition: 1s;
 }
 
 .hiddenSideAvailable
@@ -725,7 +714,7 @@ body
 
 .desc
 {
-    font-size: max(27px, 1vh);
+    font-size: max(18px, 2vh);
 }
 
 .name
